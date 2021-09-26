@@ -41,4 +41,7 @@ The analysis of the election results shows:
 
 
 ## Election-Audit Summary
+  The script used for this local government could be easily adapted for other elections. With additional counties/ candidated to an election, the script can be resused with a new csv file of votes (Assuming same format as the current csv file). A couple of variations that can be made are:
+  - If we wanted to analysis a national election, an added column of States could be added to a csv file along with the name, county, and ballot ID. We can then add to the script to include the totals for each state. 
+  - Potentially can modify the script to fit voting results into categories by zip code rather than by county.
 
